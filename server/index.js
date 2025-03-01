@@ -17,7 +17,7 @@ app.use(express.json());
 app.use(authRouter);
 app.use(documentRouter);
 
-const DB = "mongodb+srv://lalit:lalit123@cluster0.bqv1i.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+const DB = "your key";
 
 mongoose
   .connect(DB)
